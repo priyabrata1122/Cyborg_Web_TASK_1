@@ -3,10 +3,21 @@ body{
     margin-left: 5px;
 }
 
+@keyframes slideIn {
+    from {
+        margin-left: -100%; /* Start off the screen to the left */
+    }
+    to {
+        margin-left: 1; /* Move to the normal position */
+    }
+}
+
 .nav1{
     position: absolute;
     margin-left: 950px;
     margin-top: 37px;
+    animation: slideIn 3s ease-in-out;
+
 }
 
 .a1{
@@ -102,6 +113,8 @@ body{
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
+    animation: slideIn 1s ease-in-out;
+
 }
 
 .div3 {
@@ -126,6 +139,7 @@ body{
     font-weight: 1;
     padding: 0px;
     -webkit-text-stroke: 1px red;
+    animation: slideIn 5s ease-in-out;
 }
 
 .p2{
@@ -136,6 +150,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: red;
     font-weight: 800;
+    animation: slideIn 5s ease-in-out;
 }
 
 .p3{
@@ -145,6 +160,7 @@ body{
     position: absolute;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
+    animation: slideIn 5s ease-in-out;
 }
 
 .div4 {
@@ -161,6 +177,8 @@ body{
     border-radius: 20px;
     margin-top: 470px;
     margin-left: 150px;
+    animation: slideIn 7s ease-in-out;
+    transition: width 0.5s ease-in-out;
 }
 
 .p4 {
@@ -171,6 +189,8 @@ body{
     font-size: 40px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    animation: slideIn 7s ease-in-out;
+    transition: width 0.5s ease-in-out;
 }
 
 .div6 {
@@ -194,6 +214,7 @@ body{
     font-weight: 700;
     font-size: 55px;
     font-family: Arial, Helvetica, sans-serif;
+    animation: slideIn 10s ease-in-out;
     -webkit-text-stroke: 1px rgba(238, 105, 105, 1);
 }
 
@@ -247,6 +268,7 @@ body{
     font-weight: 700;
     font-size: 55px;
     font-family: Arial, Helvetica, sans-serif;
+    animation: slideIn 12s ease-in-out;
     -webkit-text-stroke: 1px rgba(238, 105, 105, 1);
 }
 
@@ -362,6 +384,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     -webkit-text-stroke: 1px rgba(238, 105, 105, 1);
     text-align: center;
+    animation: slideIn 14s ease-in-out;
     /* font-family: Arial, Helvetica, sans-serif; */
 }
 
@@ -515,6 +538,7 @@ body{
     margin-left: 550px;
     margin-top: 2px;
     font-family: Arial, Helvetica, sans-serif;
+    animation: slideIn 5s ease-in-out;
 }
 
 .div2_1 {
@@ -566,6 +590,7 @@ body{
     font-size: 60px;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 2px;
+    animation: slideIn 5s ease-in-out;
     margin-left: 600px;
 }
 
@@ -590,6 +615,7 @@ body{
     font-weight: 900;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 60px;
+    animation: slideIn 5s ease-in-out;
     text-align: center;
 }
 
